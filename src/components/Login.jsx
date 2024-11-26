@@ -13,7 +13,7 @@ import Grid from '@mui/material/Grid';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import image from '../../assets/img/unicosta.jpg';  // Importa la imagen de fondo
+import image from '../../assets/img/fondo.png';  // Importa la imagen de fondo
 import { useNavigate } from 'react-router-dom';
 import { auth } from '../firebase';
 import { useState } from 'react';
@@ -24,8 +24,8 @@ function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
-      <Link color="inherit" href="https://biblioteca.cuc.edu.co/">
-        Biblioteca Unicosta
+      <Link color="inherit" href="#">
+        Centro Medico Universitario
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}

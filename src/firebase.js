@@ -3,13 +3,12 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCaJgJQauT3U0bvtrcpJEEQs9xwuCaNw7s",
-  authDomain: "biblioteca-cuc-c3712.firebaseapp.com",
-  projectId: "biblioteca-cuc-c3712",
-  storageBucket: "biblioteca-cuc-c3712.appspot.com",
-  messagingSenderId: "514563808600",
-  appId: "1:514563808600:web:7c0eea0b6c0f1d7384592d",
-  measurementId: "G-W7R216SF7K"
+  apiKey: "AIzaSyD3RjQ74j4Prr_7q1dMX7385IncnraYJ_8",
+  authDomain: "bibliotecacuc-43187.firebaseapp.com",
+  projectId: "bibliotecacuc-43187",
+  storageBucket: "bibliotecacuc-43187.appspot.com",
+  messagingSenderId: "605339261085",
+  appId: "1:605339261085:web:0c7e396154389cb3f85c74"
 };
 
 const app = initializeApp(firebaseConfig);

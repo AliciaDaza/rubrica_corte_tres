@@ -76,8 +76,8 @@ export const LoansUser = ({ books }) => {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell>Título</TableCell>
-              <TableCell>Autor</TableCell>
+              <TableCell>Especialidad</TableCell>
+              <TableCell>Nombre</TableCell>
               <TableCell>Descripción</TableCell>
               <TableCell>Disponibilidad</TableCell>
               <TableCell>Acciones</TableCell>
@@ -100,7 +100,7 @@ export const LoansUser = ({ books }) => {
                       onClick={() => handleDevolverLibro(book.libro.id, book.id)}
                       disabled={book.libro.Disponibilidad !== 0}
                     >
-                      Devolver
+                      Cancelar cita
                     </Button>
                   </TableCell>
                 </TableRow>

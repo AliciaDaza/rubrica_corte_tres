@@ -7,9 +7,9 @@ import { Login } from '../components/Login';
 import SignUp from '../components/SingUp';
 import { BookLoans } from '../components/BookLoans';
 
-// Componente funcional AppRoutes que es para manejar las rutas de la aplicaciòn
+// Componente funcional AppRoutes
 export const AppRoutes = () => {
-  // Variable de estado para manejar el token de acceso
+  // Estado para almacenar el token de acceso
   const [accessToken, setAccessToken] = useState(null);
 
   useEffect(() => {
